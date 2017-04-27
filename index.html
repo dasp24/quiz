@@ -4,39 +4,26 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>-->
 <link rel = "stylesheet" href = "main.css">
-<script src="jquery-3.2.1.min.js"></script>
-<script src="main.js"></script>
 <title> Quiz in my pants!</title>
 </head>
 <body>
-    <h1> Our amazing Doctor Who? quiz!!!!!</h1>
-    <div class="panel panel-default col-sm-4"">
- <div class="panel-body">Question 1</div>
-    <div class = "question1">
-        <div class = "container">
-            <div class = "row">
-                </div>
-            <div class = "row">
-        <div id = "loadbar" class = "col-sm-4">
-            <label class= 'btn btn-block btn-info btn-lg'>fbd</label>
-            </div>
-                </div>
-            <div class = "row">
-        <div id = "answer2" class = "col-sm-4">
-            <label class= 'btn btn-block btn-info btn-lg'>doctor pooooo</label>
-            </div>
-                </div>
-            <div class = "row">
-        <div id = "answer3" class = "col-sm-4">
-            <label class= 'btn btn-block btn-info btn-lg'>smeghead</label>
-                            </div>
-                        </div>
-                        <div class="panel-footer col-sm-4">correct/incorrect</div>
-                    </div>
-                </div>  
-            </div>
+<div class = "container">
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h1> Our amazing Doctor Who? quiz!!!!!</h1>
         </div>
-    <script src = "jquery-3.2.1.min.js"></script>
-    <script src ="main.js"></script>
+    </div>   
+        <div class="text-center" id="question-1">What is the answer?</div>
+            <div class="row" id="answers">
+                <div class="col-xs-12">
+                    <button class="btn btn-lg btn-primary correct" id="button-a">Click Me</button>
+                    <button class="btn btn-lg btn-primary incorrect" id="button-b">Click Me</button>
+                    <button class="btn btn-lg btn-primary incorrect" id="button-c">Click Me</button>
+                </div>
+                <div class="panel-footer">correct/incorrect</div>
+            </div>  
+</div>
+<script src = "jquery-3.2.1.min.js"></script>
+<script src ="main.js"></script>
 </body>
 </html>
