@@ -2,39 +2,62 @@ h1{
     color: blue;
     text-shadow: 3px 2px black;
     font-family: "Arial", Verdana, serif;
-    font-size: 90px;
+    font-size: 75px;
     text-align: center;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
 }
 
-#answers{
-    height:100px; 
-    width:1000px; 
-    position:below;
+.answers{
+   
+    
+    margin-bottom: 200px;
+   
+
 }
 
 .questions{
-    color: orange;
-    font-size: 80px;
+    color: green;
+    font-size: 50px;
     text-align: center;
-
+    text-shadow: 3px 2px black;
+   margin-top: 50px;
 }
 
-#answers{
-    text-align: center;
-
-}
 
 .answer_correct{
-    background-color:green;
+    background-color:#00e500;
+    
 }
 
 .answer_incorrect{
-     background-color:red;
+     background-color:#cc0000;
 }
 
 #Total{
        top: 350px;
-       right: 80px;
+       right: 50px;
        position: fixed;
        z-index: 2000;
+       border-style: inset;
+       border-color: black;
+       background-color: black;
+       color:white;
+       border-radius: 20px;
+       height: 100px;
+       width: 100px;
+       text-align: center;
+       padding-top: 15px;
+       font-size: 20px;
+}
+
+.img{
+    height:150px;
+    width: 150px;
+}
+
+#pic{
+    width: 60%;
+    
 }
