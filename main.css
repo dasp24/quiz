@@ -56,8 +56,15 @@ h1{
     height:150px;
     width: 150px;
 }
+#Gallifrey{
+    width:60%;
+}
 
 #pic{
     width: 60%;
     
+}
+
+#tardis{
+    width:50%;
 }
