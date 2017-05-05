@@ -17,10 +17,10 @@ $(document).ready(function () {
         $("html,body").animate({ scrollTop:$(document).height() }, "slow");
         $('.correct').on("click", function () {
     if (score >= 9) {
-            $("#picture").attr("src", "http://www.roadkilltshirts.com/Assets/ProductImages/PS_0366_RELOAD_AGAIN.jpg");
+            $("#picture").attr("src", "http://zubeezone.com/blog/wp-content/uploads/2015/02/picard-winning1.png");
         }
     else if (score >= 4) {
-            $("#picture").attr("src", "http://zubeezone.com/blog/wp-content/uploads/2015/02/picard-winning1.png");
+            $("#picture").attr("src", "http://c86og3avv551mqtcy2adcf845a.wpengine.netdna-cdn.com/wp-content/uploads/2016/12/charlie-sheen-not-winning.jpg");
         }
     
         return runningTotal.innerHTML = "score: " + score + "/10";
